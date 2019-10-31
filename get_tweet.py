@@ -109,7 +109,7 @@ def get_text(response):
     verse = response.get('verse_number')
     text = response.get('text')
     if not chapter or not verse or not text:
-        sys.exit('Key Names Are Incorrect')
+        sys.exit('Key Not Found')
     return f'chapter {chapter}, verse {verse}\n{text}'
 
 
