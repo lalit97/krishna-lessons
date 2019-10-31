@@ -21,7 +21,7 @@ def authenticate():
 
 def format_tweets(tweets, string):
     ''' Format tweets such that each contains less than 280 character'''
-    parts = textwrap.wrap(string, LIMIT)
+    parts = textwrap.wrap(string, LIMIT, replace_whitespace=False)
     for part in parts:
         tweets.append(part)
     return tweets
