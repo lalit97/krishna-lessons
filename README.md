@@ -1,5 +1,6 @@
 # Krishna-Lessons
   Twitter Bot which posts one verse from Bhagavad Gita daily.
+  Live at: https://twitter.com/krishnalessons
 
 ## get_tweet.py
   fetches verses by calling the [Bhagavadgita](https://bhagavadgita.io/) API.
